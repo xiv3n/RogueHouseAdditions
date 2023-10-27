@@ -1,0 +1,78 @@
+﻿{
+  "code": "fruit",
+  "maxstacksize": 64,
+  "variantgroups": [
+    {
+      "code": "types",
+      "states": ["coffeecherry"]
+    }
+  ],
+  "materialDensityByType": {
+    "*-coffeecherry": 600
+  },
+  "attributes": {
+    "inContainerTexture": {
+      "base": "game:block/food/pie/fill-mixedfruit"
+    },
+    "nutritionPropsWhenInMealByType": {
+      "*": {
+        "satiety": 80,
+        "foodcategory": "Fruit"
+      }
+    },
+    "inPieProperties": {
+      "texture": "game:block/food/pie/fill-mixedfruit",
+      "partType": "Filling"
+    }
+  },
+  "shapebytype": {
+    "*-coffeecherry": { "base": "rhadditions:item/food/coffeecherry" }
+  },
+  "textureByType": {
+    "*-coffeecherry": { "base":  "rhaddtions:item/food/coffee/coffeecherry"}
+  },
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ],
+    "rhadditions": [ "*" ]
+  },
+  "nutritionPropsByType": {
+    "*-coffeecherry": {
+      "satiety": 60,
+      "foodcategory": "Fruit"
+    }
+  },
+  "transitionablePropsByType": {
+    "*-coffeecherry": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 48 },
+        "transitionHours": { "avg": 12 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      }
+    ]
+  },
+  "guiTransformByType": {
+    "*-coffeecherry": {
+      rotation: { x: 25, y: -2, z: -105 },
+      origin: { x: 0.5, y: 0.1, z: 0 },
+      scale: 4.05
+    }
+  },
+  "fpHandTransformByType": {
+    "*-coffeecherry": {
+      rotation: { x: 96, y: 90, z: -30 },
+      origin: { x: 0.8, y: 0.9, z: 0.5 },
+      scale: 1.89
+    }
+  },
+  tpHandTransform: {
+    "*-coffeecherry":{
+      origin: { x: 0.5, y: 0.65, z: 0.5 }
+    }
+  }
+}

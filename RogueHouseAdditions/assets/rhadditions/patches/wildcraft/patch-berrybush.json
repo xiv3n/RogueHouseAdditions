@@ -1,0 +1,59 @@
+﻿[
+  {
+    "file": "rhadditions:blocktypes/plant/bigberrybush",
+    "op": "replace",
+    "path": "/class",
+    "value": "WildcraftBerryBush",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "wildcraft"
+      }
+    ]
+  },
+  {
+    "file": "rhadditions:blocktypes/plant/bigberrybush",
+    "op": "replace",
+    "path": "/entityclass",
+    "value": "BETallBerryBush",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "wildcraft"
+      }
+    ]
+  },
+  {
+    "file": "wildcraft:blocktypes/plant/berry/growth",
+    "op": "add",
+    "path": "/attributes/bushCodebyType/*-coffeecherry-*",
+    "value": "rhadditions:bigberrybush-coffeecherry-empty",
+    "dependsOn": [
+      {
+        "modid": "wildcraft"
+      }
+    ]
+  },
+  {
+    "file": "wildcraft:blocktypes/plant/berry/growth",
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "coffeecherry",
+    "dependsOn": [
+      {
+        "modid": "wildcraft"
+      }
+    ]
+  },
+  {
+    "file": "wildcraft:blocktypes/plant/berry/growth",
+    "op": "add",
+    "path": "/texturesByType",
+    "value": {"*-coffeecherry-*": { "leaves":  {"base": "game:block/plant/berrybush/small/leaves/redcurrant*"}}},
+    "dependsOn": [
+      {
+        "modid": "wildcraft"
+      }
+    ]
+  }
+]

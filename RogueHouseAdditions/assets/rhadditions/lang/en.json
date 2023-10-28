@@ -618,6 +618,11 @@
     "block-brickstairs-glacier-*": "Glacier ice brick stairs",
     "block-brickstairs-snow-*": "Snow brick stairs",
 
+    "rhadditions:block-bigberrybush-coffeecherry-empty": "Coffee Plant (Empty)",
+    "rhadditions:block-bigberrybush-coffeecherry-flowering": "Coffee Plant (Flowering)",
+    "rhadditions:block-bigberrybush-coffeecherry-ripe": "Coffee Plant (Ripe)",
+
+
     "game:block-wood-copper-crate": "Copper crate ({0})",
     "game:block-wood-tinbronze-crate": "Tin Bronze crate ({0})",
     "game:block-wood-bismuthbronze-crate": "Bismuth Bronze crate ({0})",

@@ -1,0 +1,46 @@
+﻿[
+  {
+    "file": "wildcraft:itemtypes/plant/clipping",
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "coffeecherry",
+    "dependsOn": [
+      {
+        "modid": "wildcraft"
+      }
+    ]
+  },
+  {
+    "file": "wildcraft:blocktypes/plant/berry/clipping",
+    "op": "add",
+    "path": "/attributes/bushCodebyType/*-coffeecherry-*",
+    "value": "rhadditions:bigberrybush-coffeecherry-empty",
+    "dependsOn": [
+      {
+        "modid": "wildcraft"
+      }
+    ]
+  },
+  {
+    "file": "wildcraft:blocktypes/plant/berry/clipping",
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "coffeecherry",
+    "dependsOn": [
+      {
+        "modid": "wildcraft"
+      }
+    ]
+  },
+  {
+    "file": "wildcraft:blocktypes/plant/berry/clipping",
+    "op": "add",
+    "path": "/texturesByType",
+    "value": {"*-coffeecherry-*": { "leaves":  {"base": "game:block/plant/berrybush/small/leaves/redcurrant*"}}},
+    "dependsOn": [
+      {
+        "modid": "wildcraft"
+      }
+    ]
+  }
+]

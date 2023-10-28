@@ -3,7 +3,7 @@
   "maxstacksize": 64,
   "variantgroups": [
     {
-      "code": "types",
+      "code": "type",
       "states": ["coffeecherry"]
     }
   ],
